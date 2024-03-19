@@ -3,6 +3,11 @@
   "features": {
   },
   "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "hello.chpl"
+      ]
+    },
     "vscode": {
       "extensions": [
         "/opt/chapel/chapel.vsix"
