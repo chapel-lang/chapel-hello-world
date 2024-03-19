@@ -1,6 +1,8 @@
 # 'Hello, world!' in Chapel
 
-This repository contains starter code for a Chapel project. There are two ways to get started with writing Chapel:
+[Chapel](https://github.com/chapel-lang/chapel/) is a programming language for productive parallel computing. This repository contains starter code for a Chapel project. Please the [Learning Chapel](https://chapel-lang.org/learning.html) page to learn more of the language's features.
+
+To get started with this template, you can either use GitHub Codespaces or your own machine.
 
 ## Using a Codespace
 
