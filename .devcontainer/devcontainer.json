@@ -1,0 +1,19 @@
+{
+  "image": "danilafe/chapel-vscode:0.2",
+  "features": {
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "/opt/chapel/chapel.vsix"
+      ],
+      "settings": {
+        "chapel.CHPL_HOME": "/opt/chapel",
+        "chapel.chplcheck.path": "chplcheck",
+        "chapel.chplcheck.enable": true,
+        "chapel.chpldef.path": "chpl-language-server",
+        "chapel.chpldef.enable": true
+      }
+    }
+  }
+}
