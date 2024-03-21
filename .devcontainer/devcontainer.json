@@ -1,5 +1,8 @@
 {
   "image": "chapel/chapel-gasnet:latest",
+  "containerEnv": {
+    "CHPL_COMM": "none",
+  },
   "features": {
   },
   "customizations": {
