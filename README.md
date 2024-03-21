@@ -4,7 +4,8 @@
 
 To get started with this template, you can either use [GitHub Codespaces](#using-a-codespace) or [your own machine](#using-your-machine).
 
-For more code samples, consider trying out the [Primers](https://chapel-lang.org/docs/primers/).
+For more code samples, consider trying out the [Primers](https://chapel-lang.org/docs/primers/),
+or the [many programs from a past Chapel tutorial](https://github.com/chapel-lang/chapel/tree/main/test/exercises/Oct2023tutorial).
 
 ## Using a Codespace
 
