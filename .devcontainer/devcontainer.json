@@ -1,5 +1,5 @@
 {
-  "image": "danilafe/chapel-vscode:0.2",
+  "image": "chapel/chapel:latest",
   "features": {
   },
   "customizations": {
@@ -10,14 +10,10 @@
     },
     "vscode": {
       "extensions": [
-        "/opt/chapel/chapel.vsix"
+        "chpl-hpe.chapel-vscode"
       ],
       "settings": {
         "chapel.CHPL_HOME": "/opt/chapel",
-        "chapel.chplcheck.path": "chplcheck",
-        "chapel.chplcheck.enable": true,
-        "chapel.chpldef.path": "chpl-language-server",
-        "chapel.chpldef.enable": true
       }
     }
   }
