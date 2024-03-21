@@ -7,4 +7,6 @@
 // Also see the README.md or the examples/ folder for other programs to try.
 //
 
-writeln("Hello, world!");
+config const message = "Hello, world!";
+
+writeln(message);
