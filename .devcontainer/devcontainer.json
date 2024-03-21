@@ -1,5 +1,5 @@
 {
-  "image": "chapel/chapel-gasnet:latest",
+  "image": "chapel/chapel-gasnet:2.0.0",
   "containerEnv": {
     "CHPL_COMM": "none",
   },
