@@ -1,0 +1,13 @@
+// ignore binaries produced by the examples
+hello
+hello_real
+hello2-module
+hello2-module_real
+hello3-datapar
+hello3-datapar_real
+hello4-datapar-dist
+hello4-datapar-dist_real
+hello5-taskpar
+hello6-taskpar-dist
+hello5-taskpar_real
+hello6-taskpar-dist_real
