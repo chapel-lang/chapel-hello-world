@@ -5,6 +5,7 @@
   },
   "features": {
   },
+  "postCreateCommand": "awk 'NR==1613 {$0=\"        if not ls.use_resolver:\"} 1' /opt/chapel/tools/chpl-language-server/src/chpl-language-server.py > /opt/chapel/tools/chpl-language-server/src/chpl-language-server.py.tmp && cat /opt/chapel/tools/chpl-language-server/src/chpl-language-server.py.tmp > /opt/chapel/tools/chpl-language-server/src/chpl-language-server.py",
   "customizations": {
     "codespaces": {
       "openFiles": [
