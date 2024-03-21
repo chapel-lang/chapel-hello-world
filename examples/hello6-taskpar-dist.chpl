@@ -31,6 +31,7 @@ coforall loc in Locales {
 
       message += ")";
 
+      writeln(message);
     }
   }
 }
