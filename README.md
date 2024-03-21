@@ -19,6 +19,25 @@ chpl hello.chpl
 ./hello
 ```
 
+Although the Codespace is set to a single-locale (single-node) mode by default, you can simulate multiple nodes by setting the `CHPL_COMM` environment variable to `gasnet` when compiling.
+
+```bash
+# Compile a program that distributes computation to multiple nodes
+CHPL_COMM=gasnet chpl examples/hello4-datapar-dist.chpl
+
+# Run hello using two simulated nodes
+./hello4-datapar-dist -nl 2 
+```
+
+To avoid having to include `CHPL_COMM` in each compilation command, you can
+`export` it:
+
+```bash
+export CHPL_COMM=gasnet
+chpl examples/hello4-datapar-dist.chpl
+./hello4-datapar-dist -nl 2 
+```
+
 ## Using Your Machine
 
 Please follow the instructions on the [Download Chapel](https://chapel-lang.org/download.html) page to get set up with the Chapel compiler `chpl`. From there, you can compile and run the `hello.chpl` file in this repository as follows:
@@ -27,3 +46,6 @@ Please follow the instructions on the [Download Chapel](https://chapel-lang.org/
 chpl hello.chpl
 ./hello
 ```
+
+To make use of multiple nodes (or to simulate multi-node execution), please
+refer to [Multilocale Chapel Execution](https://chapel-lang.org/docs/usingchapel/multilocale.html).
